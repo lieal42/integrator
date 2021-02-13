@@ -51,56 +51,41 @@ int main() {
     TGraph* gr4 = new TGraph(6, x, resmpf);
 
     TLegend* l1 = new TLegend();
-    //TLegend* l2 = new TLegend();
     TLegend* l3 = new TLegend();
-    //TLegend* l4 = new TLegend();
 
     TCanvas* c1 = new TCanvas("c1", "exponential residuals", 1024, 800);
     gr1->SetTitle("Exponential Residuals;log(#points);residual");
     l1->AddEntry(gr1, "MC integration");
     gr1->Draw();
-    //l1->Draw("SAME");
-    //c1->SaveAs("exponentialmc.pdf");
 
-    //TCanvas* c2 = new TCanvas("c2", "exponential residuals", 1024, 800);
-    //gr2->SetTitle("Exponential Residuals;log(#points);residual");
     gr2->SetLineColor(2);
     l1->AddEntry(gr2, "MP integration");
     gr2->Draw("SAME");
     l1->Draw("SAME");
     c1->SaveAs("exponential.pdf");
 
+
     TCanvas* c3 = new TCanvas("c3", "polynomial residuals", 1024, 800);
     gr3->SetTitle("Polynomial Residuals;log(#points);residual");
     l3->AddEntry(gr3, "MC integration");
     gr3->Draw();
-    //l3->Draw("SAME");
-    //c1->SaveAs("polynomialmc.pdf");
 
-    //TCanvas* c4 = new TCanvas("c4", "polynomial residuals", 1024, 800);
-    //gr4->SetTitle("Polynomial Residuals;log(#points);residual");
     gr4->SetLineColor(2);
     l3->AddEntry(gr4, "MP integration");
     gr4->Draw("SAME");
     l3->Draw("SAME");
-    // Ho provato in tutti i modi a sovrapporre i grafici, usando l'opzione "SAME" di Draw, in questo modo il programma compila ed esegue senza problemi
-    // ma non disegna il secondo grafico da sovrapporre
     c3->SaveAs("polynomial.pdf");
 
     delete g;
     delete f;
     delete c1;
-    //delete c2;
     delete c3;
-    //delete c4;
     delete gr1;
     delete gr2;
     delete gr3;
     delete gr4;
     delete l1;
-    //delete l2;
     delete l3;
-    //delete l4;
 
     return EXIT_SUCCESS;
 }

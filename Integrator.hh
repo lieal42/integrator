@@ -3,20 +3,19 @@
 #ifndef Integrator_hh
 #define Integrator_hh
 
+#include <iostream>
+
 class Function;
 
 class Integrator {
 public:
-    Integrator(int npoints) { npoints_ = npoints; };
+    Integrator() {};
     virtual ~Integrator() {};
-    void setNPoints(int n) {
-        npoints_ = n;
-    }
-    int nPoints() const { return npoints_; };
-    virtual double point(double xlo, double xhi, int i) const = 0;
+    virtual void setNPoints(int n) { std::cerr << "W:This integration method does not need a number of points." << std::endl << "Skipping..." << std::endl; };
+    virtual int nPoints() const { std::cerr << "W:This integration method does not need a number of points." << std::endl << "Skipping..." << std::endl; };
+
     virtual double integrate(double xlo, double xhi, const Function* f) const = 0;
 private:
-    int npoints_;
 };
 
 

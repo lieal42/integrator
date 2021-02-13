@@ -9,9 +9,13 @@
 class MidpointIntegrator : public Integrator {
 public:
     MidpointIntegrator(int n = 1000);
-    virtual double point(double xlo, double xhi, int i) const;
+    void setNPoints(int n) {
+        npoints_ = n;
+    }
+    int nPoints() const { return npoints_; };
     virtual double integrate(double xlo, double xhi, const Function* f) const;
 private:
+    int npoints_;
 };
 
 #endif

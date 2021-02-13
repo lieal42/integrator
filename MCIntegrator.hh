@@ -10,12 +10,16 @@ class MCIntegrator : public Integrator {
 public:
     MCIntegrator(int n = 1000);
 
-    virtual double point(double xlo, double xhi, int i) const;
+    void setNPoints(int n) {
+        npoints_ = n;
+    }
+    int nPoints() const { return npoints_; };
 
     virtual double integrate(double xlo, double xhi, const Function* f) const;
 
 private:
     double uniform(double a, double b) const;
+    int npoints_;
 };
 
 #endif
