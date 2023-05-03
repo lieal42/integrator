@@ -1,0 +1,193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E5CBB99B253D9F94005DF71F /* canvas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canvas.jpg; sourceTree = "<group>"; };
+		E5CBB99C253D9F94005DF71F /* Datum.hh.gch */ = {isa = PBXFileReference; lastKnownFileType = file; path = Datum.hh.gch; sourceTree = "<group>"; };
+		E5CBB99D253D9F95005DF71F /* app.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = app.cpp; sourceTree = "<group>"; };
+		E5CBB99E253D9F95005DF71F /* app.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = app.o; sourceTree = "<group>"; };
+		E5CBB99F253D9F95005DF71F /* Complex.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Complex.hh; sourceTree = "<group>"; };
+		E5CBB9A0253D9F95005DF71F /* Counter.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Counter.hh; sourceTree = "<group>"; };
+		E5CBB9A1253D9F95005DF71F /* Datum.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Datum.o; sourceTree = "<group>"; };
+		E5CBB9A2253D9F95005DF71F /* Complex.hh.gch */ = {isa = PBXFileReference; lastKnownFileType = file; path = Complex.hh.gch; sourceTree = "<group>"; };
+		E5CBB9A3253D9F95005DF71F /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMyLib.a; sourceTree = "<group>"; };
+		E5CBB9A4253D9F95005DF71F /* Complex.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Complex.o; sourceTree = "<group>"; };
+		E5CBB9A5253D9F95005DF71F /* Result.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Result.cc; sourceTree = "<group>"; };
+		E5CBB9A6253D9F95005DF71F /* Datum.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Datum.hh; sourceTree = "<group>"; };
+		E5CBB9A7253D9F95005DF71F /* canvas.eps */ = {isa = PBXFileReference; lastKnownFileType = text; path = canvas.eps; sourceTree = "<group>"; };
+		E5CBB9A8253D9F95005DF71F /* complex_test */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = complex_test; sourceTree = "<group>"; };
+		E5CBB9A9253D9F95005DF71F /* Complex.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Complex.cc; sourceTree = "<group>"; };
+		E5CBB9AA253D9F95005DF71F /* Result.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Result.hh; sourceTree = "<group>"; };
+		E5CBB9AB253D9F95005DF71F /* Counter.hh.gch */ = {isa = PBXFileReference; lastKnownFileType = file; path = Counter.hh.gch; sourceTree = "<group>"; };
+		E5CBB9AC253D9F95005DF71F /* prova2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = prova2.cpp; sourceTree = "<group>"; };
+		E5CBB9AD253D9F95005DF71F /* app */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = app; sourceTree = "<group>"; };
+		E5CBB9AE253D9F95005DF71F /* Counter.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Counter.cc; sourceTree = "<group>"; };
+		E5CBB9AF253D9F95005DF71F /* histo_prova */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = histo_prova; sourceTree = "<group>"; };
+		E5CBB9B0253D9F95005DF71F /* Counter.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Counter.o; sourceTree = "<group>"; };
+		E5CBB9B1253D9F95005DF71F /* histo_prova.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = histo_prova.cpp; sourceTree = "<group>"; };
+		E5CBB9B2253D9F95005DF71F /* canvas-points.eps */ = {isa = PBXFileReference; lastKnownFileType = text; path = "canvas-points.eps"; sourceTree = "<group>"; };
+		E5CBB9B3253D9F95005DF71F /* Datum.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Datum.cc; sourceTree = "<group>"; };
+		E5CBB9B4253D9F95005DF71F /* Datum.h.gch */ = {isa = PBXFileReference; lastKnownFileType = file; path = Datum.h.gch; sourceTree = "<group>"; };
+		E5CBB9B5253D9F95005DF71F /* canvas-blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "canvas-blue.jpg"; sourceTree = "<group>"; };
+		E5CBB9B6253D9F95005DF71F /* canvas-points.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "canvas-points.pdf"; sourceTree = "<group>"; };
+		E5CBB9B7253D9F95005DF71F /* canvas-blue.eps */ = {isa = PBXFileReference; lastKnownFileType = text; path = "canvas-blue.eps"; sourceTree = "<group>"; };
+		E5CBB9B8253D9F95005DF71F /* test_complex_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_complex_class.cpp; sourceTree = "<group>"; };
+		E5EC7E75253F556B00189F03 /* Calculator.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Calculator.cc; sourceTree = "<group>"; };
+		E5EC7E76253F556B00189F03 /* Calculator.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Calculator.hh; sourceTree = "<group>"; };
+		E5EC7E77253F7CE500189F03 /* InputService.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputService.cc; sourceTree = "<group>"; };
+		E5EC7E78253F7CE500189F03 /* InputService.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputService.hh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E528096A253D9E37001ACC91 = {
+			isa = PBXGroup;
+			children = (
+				E5CBB9AD253D9F95005DF71F /* app */,
+				E5CBB99D253D9F95005DF71F /* app.cpp */,
+				E5CBB99E253D9F95005DF71F /* app.o */,
+				E5CBB9B7253D9F95005DF71F /* canvas-blue.eps */,
+				E5CBB9B5253D9F95005DF71F /* canvas-blue.jpg */,
+				E5CBB9B2253D9F95005DF71F /* canvas-points.eps */,
+				E5CBB9B6253D9F95005DF71F /* canvas-points.pdf */,
+				E5CBB9A7253D9F95005DF71F /* canvas.eps */,
+				E5CBB99B253D9F94005DF71F /* canvas.jpg */,
+				E5CBB9A8253D9F95005DF71F /* complex_test */,
+				E5CBB9A9253D9F95005DF71F /* Complex.cc */,
+				E5CBB99F253D9F95005DF71F /* Complex.hh */,
+				E5CBB9A2253D9F95005DF71F /* Complex.hh.gch */,
+				E5CBB9A4253D9F95005DF71F /* Complex.o */,
+				E5CBB9AE253D9F95005DF71F /* Counter.cc */,
+				E5CBB9A0253D9F95005DF71F /* Counter.hh */,
+				E5CBB9AB253D9F95005DF71F /* Counter.hh.gch */,
+				E5CBB9B0253D9F95005DF71F /* Counter.o */,
+				E5CBB9B3253D9F95005DF71F /* Datum.cc */,
+				E5CBB9B4253D9F95005DF71F /* Datum.h.gch */,
+				E5CBB9A6253D9F95005DF71F /* Datum.hh */,
+				E5EC7E75253F556B00189F03 /* Calculator.cc */,
+				E5EC7E77253F7CE500189F03 /* InputService.cc */,
+				E5EC7E78253F7CE500189F03 /* InputService.hh */,
+				E5EC7E76253F556B00189F03 /* Calculator.hh */,
+				E5CBB99C253D9F94005DF71F /* Datum.hh.gch */,
+				E5CBB9A1253D9F95005DF71F /* Datum.o */,
+				E5CBB9AF253D9F95005DF71F /* histo_prova */,
+				E5CBB9B1253D9F95005DF71F /* histo_prova.cpp */,
+				E5CBB9A3253D9F95005DF71F /* libMyLib.a */,
+				E5CBB9AC253D9F95005DF71F /* prova2.cpp */,
+				E5CBB9A5253D9F95005DF71F /* Result.cc */,
+				E5CBB9AA253D9F95005DF71F /* Result.hh */,
+				E5CBB9B8253D9F95005DF71F /* test_complex_class.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E528096B253D9E37001ACC91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = E528096E253D9E37001ACC91 /* Build configuration list for PBXProject "computing_methods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E528096A253D9E37001ACC91;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E528096F253D9E37001ACC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		E5280970253D9E37001ACC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E528096E253D9E37001ACC91 /* Build configuration list for PBXProject "computing_methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E528096F253D9E37001ACC91 /* Debug */,
+				E5280970253D9E37001ACC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E528096B253D9E37001ACC91 /* Project object */;
+}
